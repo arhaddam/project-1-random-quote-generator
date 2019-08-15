@@ -61,6 +61,11 @@ body {
   font-style: italic;
 }
 
+.tag {
+  font-style: italic;
+  font-size: 1rem;
+}
+
 .citation:before {
   content: ", ";
   font-style: normal;
@@ -70,6 +75,17 @@ body {
   content: ", ";
   font-style: normal;
 }
+
+.tag:before {
+  content: " [";
+  font-style: normal;
+}
+
+.tag:after {
+  content: "]";
+  font-style: normal;
+}
+
 
 #loadQuote {
   position: fixed;
